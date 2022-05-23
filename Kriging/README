@@ -1,0 +1,11 @@
+Note: This is a very basic first pass at kriging using the very limited resources available in MatLab. More advanced kriging for this project will likely be done in R – stay tuned for a future repo with better analysis tools.
+
+
+Kriging_attempt1.mat is the actual code to be run (generates heatmap style gif)
+Krigingvariance.mat also generates a gif, but of the variance only (not the actual concentrations)
+
+The other .mat files (kriging and variogram) are subfunctions that need to be in the same folder in order for the code to run
+
+The example .gif is from kriging_attempt1
+
+I gridded the image using separate software to map each of the pod locations to a more convenient location ex. (1,3) on this grid instead of the actual GPS coordinates
