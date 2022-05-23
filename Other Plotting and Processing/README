@@ -1,0 +1,3 @@
+Very basic plotting - many of the plotting functions are made for only a single pod but can be easily corrected to be used for all pods by inserting a loop.
+
+Other post processing - baseline correction code is in here. Use 25th or 50th percentile depending on application. Uses rolling window to calculate.
